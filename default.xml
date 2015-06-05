@@ -17,8 +17,7 @@
   <project path="build" name="android_build" groups="pdk,tradefed" remote="cheeky" revision="mp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
-  <project path="manifest" name="manifest" remote="cheeky" revision="mp" />
+  
   <!-- Kernel Source -->
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="cheeky" revision="mp" />
 
